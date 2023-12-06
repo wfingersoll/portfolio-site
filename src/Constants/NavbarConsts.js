@@ -1,20 +1,20 @@
 export const pages = [{
     name: 'Home',
-    link: '/'
+    link: '/portfolio-site'
 },
 {
     name: 'About Me',
-    link: '/about'
+    link: '/portfolio-site/about'
 },
 {
     name: 'Career Timeline',
-    link: '/timeline'
+    link: '/portfolio-site/timeline'
 },
 {
     name: 'Portfolio',
-    link: '/portfolio'
+    link: '/portfolio-site/portfolio'
 },
 {
     name: 'Contact',
-    link: '/contact'
+    link: '/portfolio-site/contact'
 }]
