@@ -1,5 +1,6 @@
 import React from 'react'
 import bg from '../Assets/Images/sedona_sunset.jpg'
+import Contact from '../Components/Contact'
 import { AboutProfileContainer, AboutProfileHeader, AboutProfileText, BackgroundImage, Overlay } from '../style'
 
 const About = () => {
@@ -32,6 +33,7 @@ const About = () => {
             and broader knowledge makes me a better creator even for non-user facing systems.
         </AboutProfileText>
     </AboutProfileContainer>
+    <Contact />
     </div>
   )
 }

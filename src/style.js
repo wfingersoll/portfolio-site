@@ -172,3 +172,39 @@ export const TimelineJobDescription = styled.p`
     font-weight: 300;
     color: #e0e0e0;
 `;
+
+export const ContactsContainer = styled.div`
+    z-index: 100;
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+    padding-bottom: 12px;
+    padding-top: 62px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(2,0,36,1) 75%);
+
+`
+
+
+export const ContactIcon = styled.img`
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: middle;
+`;
+
+export const ContactText = styled.a`
+    font-family: Noto Sans, sans-serif  ;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #f5f5f5;
+    display: inline-block;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-left: 22px;
+    margin-right: 122px;
+    transition: transform .3s;
+    &:hover {
+        transform: scale(1.05);
+        transition: transform .4s;
+    }
+`;
