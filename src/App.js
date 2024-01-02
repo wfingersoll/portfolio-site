@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { Routes, Route, BrowserRouter} from 'react-router-dom'
 import Home from './Pages/Home';
 import Navigation from './Components/Navigation';
 import About from './Pages/About';
+import CareerTimeline from './Pages/CareerTimeline';
  
 function App() {
   return (
@@ -11,8 +11,9 @@ function App() {
     <Navigation />
       <BrowserRouter>
         <Routes>
-          <Route path="/portfolio-site" element={<Home />} />
-          <Route path="/portfolio-site/about" element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path='/timeline' element={<CareerTimeline />} />
         </Routes>
       </BrowserRouter>
     </div>

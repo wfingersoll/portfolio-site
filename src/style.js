@@ -1,3 +1,4 @@
+import { Timeline, TimelineOppositeContent } from '@mui/lab';
 import { styled } from 'styled-components'
 
 export const NavbarContainer = styled.div`
@@ -37,7 +38,7 @@ export const BackgroundImage = styled.img`
 `;
 
 export const Overlay = styled.div`
-    background: linear-gradient(180deg, rgba(255,255,255,.2) 0%, rgba(2,0,36,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,.2) 0%, rgba(2,0,18,1) 100%);
     width: 100%;
     height: 900px;
     z-index: 20;
@@ -80,7 +81,7 @@ export const OverlaySubtitle = styled.h2`
 `;
 
 export const AboutProfileContainer = styled.div`
-    background: linear-gradient(180deg, rgba(15,15,15,0) 0%, rgba(2,0,36,1) 100%);
+    background: linear-gradient(180deg, rgba(15,15,15,0) 0%, rgba(2,0,18,1) 100%);
     position: absolute;
     z-index: 30;
     width: 45%;
@@ -107,4 +108,67 @@ export const AboutProfileText = styled.p`
     text-align: left;
     padding-left: 16px;
     padding-right: 8px;
+`;
+
+export const TimelineContainer = styled.div`
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 15%;
+    left: 0%;
+    z-index: 30;
+`;
+
+export const CareerTimelineOppositeContent = styled(TimelineOppositeContent)`
+`;
+
+export const TimelineStyled = styled(Timeline)`
+    width: 65%;
+`;
+
+export const TimelineOppositeText = styled.p`
+    color: #f5f5f5;
+    font-size: 20px;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+    font-family: Noto Sans, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    width: 320px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    background: linear-gradient(90deg, rgba(15,15,15,0) 0%, rgba(15,15,15,0.4) 35%, rgba(2,0,18,0.7) 100%);
+    height: 50px;
+    padding: 12px 24px 0px 24px;
+    border-radius: 8px;
+`;
+
+export const TimelineJobContainer = styled.div`
+    background: rgba(2, 0, 18, .6);
+    padding: 2px 24px 6px 24px;
+    border-radius: 8px;
+`
+
+export const TimelineJobPosition = styled.h2`
+    font-family: Noto Sans, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 200;
+    color: #e0e0e0;
+    margin-top: 4px;
+`;
+
+export const TimelineJobCompany = styled.h1`
+    font-family: Noto Sans, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #f5f5f5;
+    margin-bottom: 0px;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+
+`;
+
+export const TimelineJobDescription = styled.p`
+    font-family: Noto Sans, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #e0e0e0;
 `;

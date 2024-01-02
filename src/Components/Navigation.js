@@ -1,6 +1,6 @@
 import React from 'react'
 import { pages } from '../Constants/NavbarConsts'
-import { Navbar, NavbarButton, NavbarButtonContainer, NavbarContainer } from '../style'
+import { NavbarButton, NavbarButtonContainer, NavbarContainer } from '../style'
 
 const Navigation = () => {
   return (

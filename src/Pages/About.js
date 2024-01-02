@@ -10,7 +10,7 @@ const About = () => {
     <AboutProfileContainer>
         <AboutProfileHeader>William Ingersoll</AboutProfileHeader>
         <AboutProfileText>
-            I am a full-stack engineer that specializes both in web development and also machine learning.
+            I am a full-stack engineer that specializes both in web development and machine learning.
         </AboutProfileText>
         <AboutProfileText>
             Raised in Chapel Hill, North Carolina, I attended the University of North Carolina Charlotte from 2019 till my graduation in 2023.
@@ -28,8 +28,8 @@ const About = () => {
             application building. I seek to bridge the gap between designer and programmer, able to effectively translate one to the other.
         </AboutProfileText>
         <AboutProfileText>
-            Outside of the workplace I have a deep passion for history and the arts. I believe that an effective creator must have at least some
-            knowledge in all aspects of the human experience.
+            Outside of the workplace I have a deep passion for history and the arts. I believe that my ability to blend experiences
+            and broader knowledge makes me a better creator even for non-user facing systems.
         </AboutProfileText>
     </AboutProfileContainer>
     </div>
