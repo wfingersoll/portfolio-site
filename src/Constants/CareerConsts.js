@@ -3,7 +3,7 @@ export const career = [
         position: 'Software Engineer',
         company: 'Lowe\'s Home Improvement',
         time: 'June 2023 - Present',
-        description: 'Full-stack engineer working on web applications built using SpringBoot and React. Presently working with ML Ops team to develop web-based developer tools that assist with AI related tasks.'
+        description: 'Full-stack engineer working on web applications built using SpringBoot and React. Presently working on tiger team to solve a diverse range of problems. My work is currently deployed in stores nationwide.'
     },
     {
         position: 'Software Engineer',
